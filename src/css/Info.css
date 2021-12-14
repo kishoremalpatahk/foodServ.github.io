@@ -1,0 +1,75 @@
+.feature{
+    box-shadow: -2px 1px 5px 0px rgba(85, 84, 84,0.75);
+    -webkit-box-shadow: -2px 1px 5px 0px rgba(85, 84, 84, 0.75);
+    -moz-box-shadow: -2px 1px 5px 0px rgba(85, 84, 84,0.75);
+    height: 80px;
+    width: 200px;
+}
+.featuretitle{
+text-align: right;
+}
+#widget1{
+    border-left: 5px solid #4e73df;
+}
+
+#widget2{
+    border-left: 5px solid #1cc88a;
+}
+
+#widget3{
+    border-left: 5px solid #36b9cc;
+}
+
+#widget4{
+    border-left: 5px solid #f6c139;
+}
+.feature{
+ top:50%;
+ left: 50%;
+}
+.MuiSvgIcon-root {
+    width: 32px !important;
+    height: 32px !important;
+    margin-left: 100px !important
+}
+.featuretitle {
+    margin-left: 50px !important;
+    font-size: 19px;
+}
+.featurenumber{
+    font-size: 16px;
+    margin-left: 10px;
+}
+#row{  
+    margin-left: 12vh
+} 
+@media only screen and (min-width: 800px) {
+    .feature{
+        height: 50px;
+        width: 120px;
+    }
+    .MuiSvgIcon-root {
+        width: 22px !important;
+        height: 22px !important;
+        margin-left: 80px !important
+    }
+    .featuretitle {
+        font-size: 14px;
+        margin-left: 40px !important;
+    }
+}
+@media only screen and (min-width:970px){
+    .feature{
+        height: 60px;
+        width: 150px;
+    }
+    .MuiSvgIcon-root {
+        width: 22px !important;
+        height: 22px !important;
+        margin-left: 80px !important
+    }
+    .featuretitle {
+        font-size: 14px;
+        margin-left: 35px !important;
+    }
+}

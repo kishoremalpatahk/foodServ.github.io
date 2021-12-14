@@ -1,0 +1,26 @@
+:root {
+    /* Colors */
+    --black: #3e64d3;
+    --grey:#ffffff;
+    --white:#ffffff;
+    background-color: #f8f9fc;
+  }
+  a:hover{
+    color: #ffffff;
+  }
+  html {
+    overflow: hidden;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--background);
+    font-family: "Poppins", sans-serif;
+  }
